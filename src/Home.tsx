@@ -440,12 +440,12 @@ const Home = (props: HomeProps) => {
                 <WalletContainer>
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt="" src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="https://www.fantasyfairy.club/" target="_blank" rel="noopener noreferrer">Home</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                        <li><a href="https://discord.com/invite/A9up76GzQc" target="_blank"
+                               rel="noopener noreferrer">Discord</a></li>
+                        <li><a href="https://twitter.com/fantasy_fairys" target="_blank"
+                               rel="noopener noreferrer">Twitter</a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -460,7 +460,7 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>𝓕𝓪𝓷𝓽𝓪𝓼𝔂 𝓕𝓪𝓲𝓻𝔂 𝓒𝓵𝓾𝓫</h2>
                             <br/>
                             <div><Price label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " SOL") : (price + " SOL")}/><Image
                                 src="cool-cats.gif"
@@ -533,31 +533,12 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                        </Des>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                        </Des>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>𝓟𝓮𝓻𝓴𝓼 𝓸𝓯 𝓳𝓸𝓲𝓷𝓲𝓷𝓰 𝓣𝓱𝓮 𝓕𝓪𝓷𝓽𝓪𝓼𝔂 𝓕𝓪𝓲𝓻𝔂 𝓒𝓵𝓾𝓫</GoldTitle></LogoAligner>
+                            <p>• 𝙰𝚌𝚌𝚎𝚜𝚜 𝚝𝚘 𝚎𝚡𝚌𝚕𝚞𝚜𝚒𝚟𝚎 𝚛𝚎𝚜𝚘𝚞𝚛𝚌𝚎𝚜 𝚒𝚗 𝚘𝚞𝚛 𝚌𝚘𝚖𝚖𝚞𝚗𝚒𝚝𝚢 𝚒𝚗𝚌𝚕𝚞𝚍𝚒𝚗𝚐 𝚖𝚎𝚛𝚌𝚑, 𝚊𝚒𝚛𝚍𝚛𝚘𝚙𝚜, 𝚐𝚊𝚖𝚎𝚜, 𝚊𝚗𝚍 𝚜𝚘 𝚖𝚞𝚌𝚑 𝚖𝚘𝚛𝚎</p>
+                            <p>• 𝚈𝚘𝚞𝚛 𝙷𝚊𝚕𝚏𝚠𝚊𝚢 𝚝𝚑𝚎𝚛𝚎 𝚘𝚗 𝚎𝚊𝚛𝚗𝚒𝚗𝚐 𝚘𝚞𝚛 𝙿𝚊𝚜𝚜𝚒𝚟𝚎 𝚃𝚘𝚔𝚎𝚗 𝙰𝚒𝚛𝚍𝚛𝚘𝚙</p>
+                            <p>• 𝚈𝚘𝚞𝚛 𝙵𝚊𝚒𝚛𝚢 𝚑𝚊𝚜 𝚊 𝚌𝚑𝚊𝚗𝚌𝚎 𝚝𝚘 𝚎𝚗𝚍 𝚞𝚙 𝚒𝚗 𝚃𝚑𝚎 𝙵𝚊𝚗𝚝𝚊𝚜𝚢 𝙵𝚊𝚒𝚛𝚢 𝙲𝚕𝚞𝚋 𝚃𝚅 𝚂𝚎𝚛𝚒𝚎𝚜</p>
+                            <p>• 𝚈𝚘𝚞 𝚠𝚒𝚕𝚕 𝚋𝚎 𝚊𝚋𝚕𝚎 𝚝𝚘 𝚞𝚜𝚎 𝚢𝚘𝚞𝚛 𝙵𝚊𝚒𝚛𝚢 𝚒𝚗 𝚘𝚞𝚛 𝙼𝚎𝚝𝚊𝚅𝚎𝚛𝚜𝚎 𝙴𝚡𝚙𝚊𝚗𝚜𝚒𝚘𝚗</p>
+                            <p>• 𝚈𝚘𝚞'𝚕𝚕 𝚋𝚎 𝚊𝚋𝚕𝚎 𝚝𝚘 𝚎𝚗𝚝𝚎𝚛 𝚝𝚑𝚎 𝙵𝚊𝚗𝚝𝚊𝚜𝚢 𝙵𝚊𝚒𝚛𝚢 𝙲𝚕𝚞𝚋 𝙷𝚘𝚞𝚜𝚎 (𝚜𝚘𝚘𝚗 𝚝𝚘 𝚋𝚎 𝙻𝙰 𝚋𝚊𝚜𝚎𝚍)</p>
                         </Des>
                     </DesContainer>
                 </MintContainer>
